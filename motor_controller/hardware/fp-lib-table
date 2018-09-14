@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name roboarm_kicadlib)(type KiCad)(uri ${KIPRJMOD}/roboarm_kicadlib/roboarm_kicadlib.pretty)(options "")(descr ""))
+)
