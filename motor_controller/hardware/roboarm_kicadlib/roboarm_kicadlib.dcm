@@ -1,0 +1,7 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP stm32f4_discovery
+D STM32F4 Discovery Header
+$ENDCMP
+#
+#End Doc Library
