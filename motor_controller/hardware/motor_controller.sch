@@ -5,11 +5,11 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 7
-Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
+Title "Roboarm motor controller"
+Date "2018-09-21"
+Rev "A"
+Comp "Guild of Automation and Systems Technology"
+Comment1 "Aapo 'Eipou' Oksman"
 Comment2 ""
 Comment3 ""
 Comment4 ""
