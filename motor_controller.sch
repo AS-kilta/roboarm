@@ -959,8 +959,6 @@ uart_tx
 Wire Wire Line
 	2400 1250 2550 1250
 Wire Wire Line
-	2400 1450 2550 1450
-Wire Wire Line
 	2400 1550 2550 1550
 Wire Wire Line
 	2400 1650 2550 1650
@@ -1776,4 +1774,60 @@ Wire Wire Line
 Connection ~ 1600 5300
 Wire Wire Line
 	1600 5300 2000 5300
+NoConn ~ 4350 1250
+NoConn ~ 4400 1300
+NoConn ~ 4400 1400
+NoConn ~ 4400 1500
+NoConn ~ 4350 1550
+NoConn ~ 4400 1900
+NoConn ~ 4350 1950
+NoConn ~ 4400 2300
+NoConn ~ 4350 2350
+NoConn ~ 4400 2400
+NoConn ~ 4350 2450
+NoConn ~ 4400 2500
+NoConn ~ 4350 2550
+NoConn ~ 4400 2600
+NoConn ~ 4350 2650
+NoConn ~ 4400 2700
+NoConn ~ 4350 2750
+NoConn ~ 4400 2800
+NoConn ~ 4350 2850
+NoConn ~ 4400 2900
+NoConn ~ 4350 2950
+NoConn ~ 4400 3000
+NoConn ~ 4350 3050
+NoConn ~ 4400 3200
+NoConn ~ 4350 3250
+NoConn ~ 4400 3300
+NoConn ~ 4350 3350
+NoConn ~ 4400 3400
+NoConn ~ 4350 3450
+NoConn ~ 4400 3500
+NoConn ~ 5450 3450
+NoConn ~ 5450 3250
+NoConn ~ 5400 3200
+NoConn ~ 5400 3100
+NoConn ~ 5400 3000
+NoConn ~ 5400 2900
+NoConn ~ 5400 2800
+NoConn ~ 5400 2700
+NoConn ~ 5450 2650
+NoConn ~ 5400 2600
+NoConn ~ 5450 2450
+NoConn ~ 5400 2400
+NoConn ~ 5400 2300
+NoConn ~ 5400 2200
+NoConn ~ 5450 2150
+NoConn ~ 5450 1950
+NoConn ~ 5450 1850
+NoConn ~ 5400 1600
+NoConn ~ 5450 1550
+NoConn ~ 5400 1500
+NoConn ~ 5450 1450
+NoConn ~ 5600 6000
+NoConn ~ 2400 1350
+NoConn ~ 2400 1750
+Wire Wire Line
+	2400 1450 2550 1450
 $EndSCHEMATC
