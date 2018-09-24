@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:motor_controller-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -594,8 +593,8 @@ L Mechanical:MountingHole MH1
 U 1 1 5BA2D739
 P 1050 6600
 F 0 "MH1" H 1150 6646 50  0000 L CNN
-F 1 "MountingHole" H 1150 6555 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965" H 1050 6600 50  0001 C CNN
+F 1 "DinMount" H 1150 6555 50  0000 L CNN
+F 2 "roboarm_kicadlib:controller_din_mount" H 1050 6600 50  0001 C CNN
 F 3 "~" H 1050 6600 50  0001 C CNN
 	1    1050 6600
 	1    0    0    -1  
@@ -605,32 +604,10 @@ L Mechanical:MountingHole MH2
 U 1 1 5BA2D839
 P 1050 6800
 F 0 "MH2" H 1150 6846 50  0000 L CNN
-F 1 "MountingHole" H 1150 6755 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965" H 1050 6800 50  0001 C CNN
+F 1 "DinMount" H 1150 6755 50  0000 L CNN
+F 2 "roboarm_kicadlib:controller_din_mount" H 1050 6800 50  0001 C CNN
 F 3 "~" H 1050 6800 50  0001 C CNN
 	1    1050 6800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole MH3
-U 1 1 5BA2D871
-P 1050 7000
-F 0 "MH3" H 1150 7046 50  0000 L CNN
-F 1 "MountingHole" H 1150 6955 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965" H 1050 7000 50  0001 C CNN
-F 3 "~" H 1050 7000 50  0001 C CNN
-	1    1050 7000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole MH4
-U 1 1 5BA2D8AB
-P 1050 7200
-F 0 "MH4" H 1150 7246 50  0000 L CNN
-F 1 "MountingHole" H 1150 7155 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965" H 1050 7200 50  0001 C CNN
-F 3 "~" H 1050 7200 50  0001 C CNN
-	1    1050 7200
 	1    0    0    -1  
 $EndComp
 $Comp
