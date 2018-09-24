@@ -1,4 +1,4 @@
-(module pololu_g2_samtec_hpf_hpm (layer F.Cu) (tedit 5B9B87D2)
+(module pololu_g2_samtec_hpf_hpm (layer F.Cu) (tedit 5BA72D08)
   (fp_text reference REF** (at 0.368748 1.261284) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -30,17 +30,17 @@
   (pad 14 thru_hole circle (at 8.101748 12.348384) (size 2.032 2.032) (drill 1.3462) (layers *.Cu *.Mask))
   (pad 14 thru_hole circle (at 8.101748 14.812184) (size 2.032 2.032) (drill 1.3462) (layers *.Cu *.Mask))
   (model ${KIPRJMOD}/roboarm_kicadlib/roboarm_kicadlib.3dshapes/pololu-g2.wrl
-    (offset (xyz 10.7010198392868 17.24913974094391 13.20799980163574))
+    (offset (xyz 10.701 17.2491 13))
     (scale (xyz 0.396 0.396 0.396))
     (rotate (xyz 180 0 90))
   )
   (model ${KISYS3DMOD}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x08_P2.54mm_Vertical.wrl
-    (offset (xyz 9.25 15.9 0))
+    (offset (xyz 9.250679861068726 15.90039976119995 0.1269999980926514))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 90))
   )
   (model ${KISYS3DMOD}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x08_P2.54mm_Vertical.wrl
-    (offset (xyz -8.498839872360231 15.90039976119995 9.499599857330322))
+    (offset (xyz -8.498799999999999 15.9004 9.769600000000001))
     (scale (xyz 1 1 1))
     (rotate (xyz 180 0 90))
   )
