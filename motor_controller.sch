@@ -1836,4 +1836,14 @@ F 3 "" H 6200 2100 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6200 2100 6200 2050
+Text Notes 3900 4650 0    100  ~ 0
+TODO:\n-Fuses for motor controllers\n-Fuse for 24V power input
+Wire Notes Line
+	3850 4100 6200 4100
+Wire Notes Line
+	6200 4100 6200 4750
+Wire Notes Line
+	6200 4750 3850 4750
+Wire Notes Line
+	3850 4750 3850 4100
 $EndSCHEMATC
