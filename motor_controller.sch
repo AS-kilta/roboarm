@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:motor_controller-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -346,7 +347,7 @@ F 3 "~" H 1000 4500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 2000 3900 2    50   Output ~ 0
-motor_pot_2
+motor_pot_1
 $Comp
 L Connector:Conn_01x02_Male J9
 U 1 1 5B991AA0
@@ -359,9 +360,9 @@ F 3 "~" H 1000 3800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 2000 3800 2    50   Output ~ 0
-motor_pot_1
+motor_pot_2
 Text GLabel 2000 4600 2    50   Output ~ 0
-motor_pot_4
+motor_pot_3
 $Comp
 L Connector:Conn_01x02_Male J11
 U 1 1 5B993259
@@ -374,11 +375,11 @@ F 3 "~" H 1000 5200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 2000 4500 2    50   Output ~ 0
-motor_pot_3
+motor_pot_4
 Text GLabel 2000 5300 2    50   Output ~ 0
-motor_pot_6
-Text GLabel 2000 5200 2    50   Output ~ 0
 motor_pot_5
+Text GLabel 2000 5200 2    50   Output ~ 0
+motor_pot_6
 $Comp
 L power:+5V #PWR0132
 U 1 1 5B99789C
@@ -663,7 +664,7 @@ $EndComp
 Wire Wire Line
 	8100 1350 8000 1350
 Text GLabel 4250 1650 0    25   Output ~ 0
-motor_pot_1
+motor_pot_2
 Text GLabel 1700 3050 2    50   Input ~ 0
 POT+
 Text GLabel 5550 1750 2    25   Output ~ 0
@@ -781,7 +782,7 @@ motor_dir_2
 Text GLabel 5550 2350 2    25   Output ~ 0
 motor_pwm_2
 Text GLabel 4250 1450 0    25   Output ~ 0
-motor_pot_2
+motor_pot_1
 Text GLabel 4250 1700 0    25   Input ~ 0
 motor_current_2
 Text GLabel 5550 2750 2    25   Output ~ 0
@@ -789,7 +790,7 @@ motor_dir_1
 Text GLabel 5550 3350 2    25   Output ~ 0
 motor_pwm_6
 Text GLabel 4250 1850 0    25   Output ~ 0
-motor_pot_3
+motor_pot_4
 Text GLabel 4250 1800 0    25   Input ~ 0
 motor_current_3
 Text GLabel 5550 2850 2    25   Output ~ 0
@@ -797,7 +798,7 @@ motor_dir_6
 Text GLabel 5550 3500 2    25   Output ~ 0
 motor_pwm_4
 Text GLabel 4250 1750 0    25   Output ~ 0
-motor_pot_4
+motor_pot_3
 Text GLabel 4250 2200 0    25   Input ~ 0
 motor_current_4
 Text GLabel 5550 3050 2    25   Output ~ 0
@@ -805,7 +806,7 @@ motor_dir_5
 Text GLabel 5550 3400 2    25   Output ~ 0
 motor_pwm_5
 Text GLabel 4250 2150 0    25   Output ~ 0
-motor_pot_5
+motor_pot_6
 Text GLabel 4250 2100 0    25   Input ~ 0
 motor_current_5
 Text GLabel 5550 3150 2    25   Output ~ 0
@@ -813,7 +814,7 @@ motor_dir_4
 Text GLabel 5550 3300 2    25   Output ~ 0
 motor_pwm_1
 Text GLabel 4250 2050 0    25   Output ~ 0
-motor_pot_6
+motor_pot_5
 Text GLabel 4250 2000 0    25   Input ~ 0
 motor_current_6
 Text GLabel 4200 3100 0    25   Output ~ 0
