@@ -81,11 +81,11 @@ F5 "~FAULT" O L 10000 5800 50
 F6 "CURRENTSENSE" O L 10000 5900 50 
 $EndSheet
 Text GLabel 9850 1150 0    50   Input ~ 0
-motor_sleep_all
+motor_enable_all
 Wire Wire Line
 	9850 1150 10000 1150
 Text GLabel 9850 2050 0    50   Input ~ 0
-motor_sleep_all
+motor_enable_all
 Wire Wire Line
 	9850 2050 10000 2050
 Text GLabel 9850 950  0    50   Input ~ 0
@@ -121,7 +121,7 @@ Wire Wire Line
 Wire Wire Line
 	9850 2250 10000 2250
 Text GLabel 9850 2950 0    50   Input ~ 0
-motor_sleep_all
+motor_enable_all
 Wire Wire Line
 	9850 2950 10000 2950
 Text GLabel 9850 2750 0    50   Input ~ 0
@@ -141,7 +141,7 @@ Wire Wire Line
 Wire Wire Line
 	9850 3150 10000 3150
 Text GLabel 9850 3850 0    50   Input ~ 0
-motor_sleep_all
+motor_enable_all
 Wire Wire Line
 	9850 3850 10000 3850
 Text GLabel 9850 3650 0    50   Input ~ 0
@@ -161,7 +161,7 @@ Wire Wire Line
 Wire Wire Line
 	9850 4050 10000 4050
 Text GLabel 9850 4800 0    50   Input ~ 0
-motor_sleep_all
+motor_enable_all
 Wire Wire Line
 	9850 4800 10000 4800
 Text GLabel 9850 4600 0    50   Input ~ 0
@@ -181,7 +181,7 @@ Wire Wire Line
 Wire Wire Line
 	9850 5000 10000 5000
 Text GLabel 9850 5700 0    50   Input ~ 0
-motor_sleep_all
+motor_enable_all
 Wire Wire Line
 	9850 5700 10000 5700
 Text GLabel 9850 5500 0    50   Input ~ 0
@@ -668,7 +668,7 @@ motor_pot_2
 Text GLabel 1700 3050 2    50   Input ~ 0
 POT+
 Text GLabel 5550 1750 2    25   Output ~ 0
-motor_sleep_all
+motor_enable_all
 Text GLabel 5550 1650 2    25   Output ~ 0
 motor_fault_2
 Text GLabel 5550 2250 2    25   Output ~ 0
@@ -1820,7 +1820,7 @@ F 3 "~" H 6200 1900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 6200 1650 2    25   UnSpc ~ 0
-motor_sleep_all
+motor_enable_all
 Wire Wire Line
 	6200 1650 6200 1750
 $Comp
