@@ -713,7 +713,7 @@ Text GLabel 4450 3650 0    25   Input ~ 0
 motor_pot_1
 Text GLabel 4450 3900 0    25   Input ~ 0
 motor_current_2
-Text GLabel 5750 4950 2    25   Output ~ 0
+Text GLabel 5750 4900 2    25   Output ~ 0
 motor_dir_1
 Text GLabel 5750 5550 2    25   Output ~ 0
 motor_pwm_6
@@ -721,7 +721,7 @@ Text GLabel 4450 4050 0    25   Input ~ 0
 motor_pot_4
 Text GLabel 4450 4000 0    25   Input ~ 0
 motor_current_3
-Text GLabel 5750 5050 2    25   Output ~ 0
+Text GLabel 5750 4950 2    25   Output ~ 0
 motor_dir_6
 Text GLabel 5750 5700 2    25   Output ~ 0
 motor_pwm_4
@@ -729,7 +729,7 @@ Text GLabel 4450 3950 0    25   Input ~ 0
 motor_pot_3
 Text GLabel 4450 4400 0    25   Input ~ 0
 motor_current_4
-Text GLabel 5750 5250 2    25   Output ~ 0
+Text GLabel 5750 5000 2    25   Output ~ 0
 motor_dir_5
 Text GLabel 5750 5600 2    25   Output ~ 0
 motor_pwm_5
@@ -737,7 +737,7 @@ Text GLabel 4450 4350 0    25   Input ~ 0
 motor_pot_6
 Text GLabel 4450 4300 0    25   Input ~ 0
 motor_current_5
-Text GLabel 5750 5350 2    25   Output ~ 0
+Text GLabel 5750 5050 2    25   Output ~ 0
 motor_dir_4
 Text GLabel 5750 5500 2    25   Output ~ 0
 motor_pwm_1
@@ -1228,23 +1228,9 @@ F 3 "~" H 1700 5600 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	1400 2900 1450 2900
-Wire Wire Line
 	1700 2900 1900 2900
 Wire Wire Line
 	1700 3000 1900 3000
-Wire Wire Line
-	1500 4100 1550 4100
-Wire Wire Line
-	1500 4200 1550 4200
-Wire Wire Line
-	1500 4800 1550 4800
-Wire Wire Line
-	1500 4900 1550 4900
-Wire Wire Line
-	1500 5500 1550 5500
-Wire Wire Line
-	1500 5600 1550 5600
 $Comp
 L Connector:TestPoint TP1
 U 1 1 5BB299F6
@@ -1256,9 +1242,6 @@ F 3 "~" H 1650 2900 50  0001 C CNN
 	1    1450 2900
 	1    0    0    -1  
 $EndComp
-Connection ~ 1450 2900
-Wire Wire Line
-	1450 2900 1500 2900
 $Comp
 L Connector:TestPoint TP2
 U 1 1 5BB29CC8
@@ -1270,11 +1253,6 @@ F 3 "~" H 1650 3000 50  0001 C CNN
 	1    1450 3000
 	-1   0    0    1   
 $EndComp
-Connection ~ 1450 3000
-Wire Wire Line
-	1450 3000 1500 3000
-Wire Wire Line
-	1400 3000 1450 3000
 $Comp
 L Connector:TestPoint TP3
 U 1 1 5BB413AF
@@ -1286,9 +1264,6 @@ F 3 "~" H 1750 4100 50  0001 C CNN
 	1    1550 4100
 	1    0    0    -1  
 $EndComp
-Connection ~ 1550 4100
-Wire Wire Line
-	1550 4100 1600 4100
 $Comp
 L Connector:TestPoint TP4
 U 1 1 5BB413B8
@@ -1300,9 +1275,6 @@ F 3 "~" H 1750 4200 50  0001 C CNN
 	1    1550 4200
 	-1   0    0    1   
 $EndComp
-Connection ~ 1550 4200
-Wire Wire Line
-	1550 4200 1600 4200
 $Comp
 L Connector:TestPoint TP5
 U 1 1 5BB4E08C
@@ -1314,9 +1286,6 @@ F 3 "~" H 1750 4800 50  0001 C CNN
 	1    1550 4800
 	1    0    0    -1  
 $EndComp
-Connection ~ 1550 4800
-Wire Wire Line
-	1550 4800 1600 4800
 $Comp
 L Connector:TestPoint TP6
 U 1 1 5BB4E095
@@ -1328,9 +1297,6 @@ F 3 "~" H 1750 4900 50  0001 C CNN
 	1    1550 4900
 	-1   0    0    1   
 $EndComp
-Connection ~ 1550 4900
-Wire Wire Line
-	1550 4900 1600 4900
 $Comp
 L Connector:TestPoint TP7
 U 1 1 5BB5B27A
@@ -1342,9 +1308,6 @@ F 3 "~" H 1750 5500 50  0001 C CNN
 	1    1550 5500
 	1    0    0    -1  
 $EndComp
-Connection ~ 1550 5500
-Wire Wire Line
-	1550 5500 1600 5500
 $Comp
 L Connector:TestPoint TP8
 U 1 1 5BB5B283
@@ -1356,9 +1319,6 @@ F 3 "~" H 1750 5600 50  0001 C CNN
 	1    1550 5600
 	-1   0    0    1   
 $EndComp
-Connection ~ 1550 5600
-Wire Wire Line
-	1550 5600 1600 5600
 $Comp
 L Device:C C18
 U 1 1 5BB9D569
@@ -1829,4 +1789,26 @@ Wire Notes Line
 	900  1950 900  6200
 Wire Notes Line
 	3050 1950 3050 6200
+Wire Wire Line
+	1400 2900 1500 2900
+Wire Wire Line
+	1500 4100 1600 4100
+Wire Wire Line
+	1500 4200 1600 4200
+Wire Wire Line
+	1500 4800 1600 4800
+Wire Wire Line
+	1500 4900 1600 4900
+Wire Wire Line
+	1500 5500 1600 5500
+Wire Wire Line
+	1500 5600 1600 5600
+Wire Wire Line
+	1400 3000 1500 3000
+Wire Wire Line
+	5750 4900 5600 4900
+Wire Wire Line
+	5600 5000 5750 5000
+NoConn ~ 5750 5250
+NoConn ~ 5750 5350
 $EndSCHEMATC
